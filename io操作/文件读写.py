@@ -6,6 +6,8 @@ with open('test.txt','r') as f:
     print f.read()
 #with自带关闭
 
+#，调用readline()可以每次读取一行内容， 生成器
+# 调用readlines()一次读取所有内容并按行返回list（行的list）  迭代器
 for line in f.readlines():
     print line.strip()
 

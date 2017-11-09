@@ -31,6 +31,7 @@ os.remove('test.py')
 [x for x in os.listdir('') if os.path.isfile(x) and os.path.splitext(x)[1]=='.py']
 
 
+# 查找文件
 import os,sys
 def search(name,path):
     for x in os.listdir(path):

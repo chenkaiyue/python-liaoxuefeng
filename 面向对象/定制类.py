@@ -63,6 +63,7 @@ class Chain(object):
         return self._path
     __repr__ = __str__
 
+
 #>>> Chain().status.user.timeline.list
 #'/status/user/timeline/list'
 
